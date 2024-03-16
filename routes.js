@@ -4,7 +4,7 @@ import App from './App';
 const router = createRouter({
   home: {
     path: '/',
-    screen: './App',
+    screen: App,
   },
   // Добавьте другие маршруты здесь, если есть
 });
